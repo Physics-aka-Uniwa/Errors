@@ -8,6 +8,11 @@
   DEPARTMENT OF COMPUTER ENGINEERING AND INFORMATICS
 </p>
 
+<p align="center">
+  <a href="https://www.uniwa.gr" target="_blank">University of West Attica</a> ·
+  <a href="https://ice.uniwa.gr" target="_blank">Department of Computer Engineering and Informatics</a>
+</p>
+
 ---
 
 <p align="center">
@@ -44,14 +49,23 @@
 
 </hr>
 
+---
+
 <p align="center">
   Athens, December 2019
 </p>
 
+---
+
+<p align="center">
+  <img src="https://i.ytimg.com/vi/FIRTZbfDhtY/sddefault.jpg" width="250"/>
+</p>
 
 ---
 
-# Physics Exercise in Errors and Graphics
+# README
+
+## Errors
 
 This repository summarizes the physics project completed by **Vasileios Evangelos Athanasiou** for the University of West Attica. The project focuses on **statistical error analysis**, **significant figures**, and the **least squares method** applied to physical measurements.
 
@@ -59,21 +73,21 @@ This repository summarizes the physics project completed by **Vasileios Evangelo
 
 ## Table of Contents
 
-| Section | Folder/File | Description |
-|------:|-------------|-------------|
-| 1 | `docs/` | Documentation related to error analysis |
-| 1.1 | `docs/Errors.pdf` | Error analysis document (English) |
-| 1.2 | `docs/Σφάλματα.pdf` | Error analysis document (Greek) |
-| 2 | `tables/` | Tables and datasets used in analysis |
-| 2.1 | `tables/Tables.xlsx` | Error-related tables in spreadsheet format |
-| 2.2 | `tables/Πίνακες.pdf` | Error-related tables in PDF format |
-| 3 | `README.md` | Repository overview and usage instructions |
+| Section | Folder/File          | Description                                |
+| ------: | -------------------- | ------------------------------------------ |
+|       1 | `docs/`              | Documentation related to error analysis    |
+|     1.1 | `docs/Errors.pdf`    | Error analysis document (English)          |
+|     1.2 | `docs/Σφάλματα.pdf`  | Error analysis document (Greek)            |
+|       2 | `tables/`            | Tables and datasets used in analysis       |
+|     2.1 | `tables/Tables.xlsx` | Error-related tables in spreadsheet format |
+|     2.2 | `tables/Πίνακες.pdf` | Error-related tables in PDF format         |
+|       3 | `README.md`          | Repository overview and usage instructions |
 
 ---
 
-## Project Objectives
+## 1. Project Objectives
 
-### 1. Significant Figures and Rounding
+### 1.1 Significant Figures and Rounding
 
 The project begins by identifying significant figures and performing rounding operations.
 
@@ -82,7 +96,7 @@ The project begins by identifying significant figures and performing rounding op
 
 ---
 
-### 2. Statistical Analysis of Measurements
+## 2. Statistical Analysis of Measurements
 
 Experimental datasets are analyzed to compute statistical properties of measurements.
 
@@ -108,7 +122,7 @@ $$
 
 ---
 
-### 3. Area Calculation and Error Propagation
+## 3. Area Calculation and Error Propagation
 
 The area of a rectangle is computed from measured dimensions with uncertainty propagation.
 
@@ -124,34 +138,36 @@ Total uncertainty is derived from uncertainties of both dimensions.
 
 ---
 
-### 4. Least Squares Method (Linear Regression)
+## 4. Least Squares Method (Linear Regression)
 
 The least squares method is applied to experimental measurements to determine physical constants.
 
-#### Pendulum Motion
+### 4.1 Pendulum Motion
+
 Analyzes the relation between oscillation period \(T_i\) and pendulum length \(x_i\) to determine:
 
 - Gravity acceleration \(g\)
 - Experimental constant \(a\)
 
-#### Mass–Spring System
+### 4.2 Mass–Spring System
+
 Uses oscillation periods \(T_i\) for varying masses \(m_i\) to compute:
 
 - Spring constant \(D\)
-- Effective mass of the spring \(m_{ελ}\)
+- Effective mass of the spring \(m\_{ελ}\)
 
 ---
 
-## Summary of Calculated Constants
+## 5. Summary of Calculated Constants
 
 Based on experimental data:
 
-- **Gravity acceleration (g):** 0.92145 cm²/s  
-- **Spring Constant (D):** 0.40807 N/m  
+- **Gravity acceleration (g):** 0.92145 cm²/s
+- **Spring Constant (D):** 0.40807 N/m
 - **Calculated Area (A):** 980.2 cm² ± 1.0%
 
 ---
 
-## Conclusion
+## 6. Conclusion
 
 The project demonstrates practical application of statistical methods, uncertainty analysis, and regression techniques in physics experiments, reinforcing foundational measurement and analysis skills.
